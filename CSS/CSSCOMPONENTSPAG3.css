@@ -1,0 +1,68 @@
+.background3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1500;
+  margin: 0 auto;
+}
+
+#direitatopo3 {
+  display: flex;
+  position: absolute;
+  width: 650px;
+  margin-right: 800;
+  margin-top: -300;
+  animation: move 27s linear infinite;
+}
+
+#esquerdabaixo3 {
+  display: flex;
+  position: absolute;
+  width: 650px;
+  margin-right: 3500;
+  margin-top: 600;
+  animation: move 20s linear infinite;
+}
+
+#circulo3 {
+  display: flex;
+  position: absolute;
+  width: 210px;
+  margin-right: 3300;
+  margin-top: 450;
+  transition: transform 500ms ease-in-out;
+}
+
+#circulo3:hover {
+  transform: scale(1.1);
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(30px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#circulo4 {
+  width: 150;
+  height: 150;
+  border-radius: 50%;
+  background-color: #ff9e9e;
+  display: flex;
+  position: absolute;
+  margin-top: -350;
+  margin-left: -500;
+  transition: transform 800ms ease-in-out;
+}

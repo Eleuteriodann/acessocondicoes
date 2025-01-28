@@ -1,0 +1,74 @@
+.pagina3 {
+  background-color: #ed7878;
+  height: 650px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+h3 {
+  display: inline-block;
+  font-family: "inter";
+  color: white;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 190;
+  margin-right: 250px;
+  margin-left: 100;
+  transition: transform 300ms linear;
+}
+
+h3:hover {
+  transform: scale(1.05);
+}
+
+.fileira1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-right: 500;
+  margin-top: 150;
+}
+
+.fileira1 img {
+  width: 130px;
+  height: 130px;
+  border-radius: 15px;
+  transition: opacity 400ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.fileira1 img:hover {
+  opacity: 70%;
+  transform: scale(1.1);
+}
+
+.fileira2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-right: 350;
+  margin-top: 20;
+}
+
+.fileira2 img {
+  width: 130px;
+  height: 130px;
+  border-radius: 15px;
+  transition: opacity 400ms ease-in-out, transform 300ms ease-in-out;
+}
+
+.fileira2 img:hover {
+  opacity: 70%;
+  transform: scale(1.1);
+}

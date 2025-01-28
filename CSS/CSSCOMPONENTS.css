@@ -1,0 +1,66 @@
+.background {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1500;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+#esquerdabaixo {
+  display: flex;
+  position: absolute;
+  width: 600px;
+  top: 500px;
+  margin-left: -1400;
+  z-index: -1;
+  animation: move 27s infinite;
+}
+
+#meio {
+  display: flex;
+  position: absolute;
+  width: 600px;
+  top: 200px;
+  margin-left: -80;
+  z-index: -1;
+  animation: move 23s infinite;
+}
+
+#top {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  top: 50px;
+  z-index: -1;
+  margin-left: 1380;
+  animation: move 25s infinite;
+}
+
+#direitabaixo {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  top: 650px;
+  margin-left: 1380;
+  z-index: -1;
+  animation: move 20s infinite ease-in-out;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(30px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
